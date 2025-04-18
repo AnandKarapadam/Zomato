@@ -1,0 +1,90 @@
+.top {
+    position: relative;
+    height: calc(100vh -30rem);
+    min-height: 42rem;
+    max-height: 57rem;
+    margin-bottom: 4rem;
+}
+.top .bg-image {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: calc(100vh - 30rem);
+    min-height: 42rem;
+    max-height: 57rem;
+    object-fit: cover;
+    width: 100%;
+}
+.top .center-content {
+    position: absolute;
+    bottom: calc(50% - 11.1rem);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.top .zomato-logo {
+    height: 6rem;
+    width: 30rem;
+    position: relative;
+}
+.top h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 3rem;
+}
+.top .city {
+    font-weight: 600;
+}
+.top .search-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 0.8rem;
+    margin-top: 3rem;
+    height: 5.4rem;
+    border: 1px solid rgb(232, 232, 232);
+    align-items: center;
+}
+.top .search-container input {
+    border: none;
+}
+.top .search-container > div {
+    align-items: center;
+    display: flex;
+}
+.top .search-container .location {
+    width: 24rem;
+    padding: 0 1rem;
+    justify-content: space-around;
+}
+.top .search-container .location svg {
+    color: rgb(255, 126, 139);
+}
+.top .search-container .line {
+    width: 0rem;
+    height: 2rem;
+    border: 0.05rem solid rgb(207, 207, 207);
+}
+.top .search-container .search {
+    width: 53rem;
+    display: flex;
+}
+.top .search-container .search input {
+    flex: 1;
+    font-size: 1.4rem;
+}
+.top .search-container .search svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    margin: -1px -0.6rem -1px -1px;
+    color: rgb(130, 130, 130);
+}

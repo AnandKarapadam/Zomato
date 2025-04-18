@@ -1,0 +1,32 @@
+.explore {
+    background-color: #fcfcfc;
+    height: 550px;
+    padding-top: 5rem;
+    
+}
+.exploreelements {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.headingexplore {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+    
+}
+.option-1 {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    border-radius: 0.8rem;
+    border: 1px solid rgb(224, 213, 213);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    margin-bottom: 2.5rem;
+    background-color: white;
+    font-weight: lighter;
+}
